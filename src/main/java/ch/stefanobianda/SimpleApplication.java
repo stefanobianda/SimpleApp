@@ -23,7 +23,6 @@ public class SimpleApplication {
             try {
                 TimeUnit.SECONDS.sleep(1);
                 count++;
-                System.out.println(count);
                 simpleForm1.updateCount(count);
             } catch (InterruptedException e) {
                 e.printStackTrace();
